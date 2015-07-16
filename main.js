@@ -50,8 +50,6 @@ function startServo(timeOffset, timeInterval)
 
 // timeOffset tells setTimeout when to execute the function specified in the first param
 
-// angle is passed as a param to the specified function
-
 }
 
 // start immediately, run every 10  miliseconds.

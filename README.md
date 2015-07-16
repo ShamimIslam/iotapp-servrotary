@@ -1,12 +1,22 @@
-Local Temperature Node.js IoT App
+Servrotary
 ============================
-The Blank Node.js sample application distributed within Intel® XDK IoT Edition under the Internet of Things  project creation option.
+A simple node.js application that demonstrates when rotary angle sensor is being moved it will make servo motor rotate.
 
+Servo is absolutely a fun motion control device, it can be located at any position between 0 to 180 degrees. With 4 shafts in different shapes, this servo is ready to drive a little fan, lift an object, or mimic a clock hand.
+Rotary angle sensor is a 10Kohm linear rotary potentiometer. It has 300 degrees active range. Also designed as a HID device, “panel mount” feature is added.
+
+First, you need to verify the mapping between these two sensors because they have different angles limit, which will help to make sure when Rotary angle sensor moves, the servo rotates. 
+
+```javascript
+var degrees = groveRotary.abs_deg();// Get absolute raw radians from AIO pin 
+servo.setAngle(Math.round(degrees * servoRange/knobRange));
+console.log("Set angle to " + degrees);
+```
 Intel(R) XDK IoT Edition
 -------------------------------------------
 This template is part of the Intel(R) XDK IoT Edition. 
 Download the Intel(R) XDK IoT Edition at https://software.intel.com/en-us/html5/xdk-iot. To see the technical details of the sample, 
-please visit the sample article page at https://software.intel.com/en-us/xdk/docs/intel-xdk-iot-edition-nodejs-templates.
+please visit the sample article page at https://software.intel.com/en-us/creating-an-app-that-rotates-a-servo-motor.
 
 
 Important App Files

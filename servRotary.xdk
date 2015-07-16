@@ -4,7 +4,7 @@
     "creationData": {
       "projectTypeName": "com.intel.xdk.projecttype.iotapp",
       "src": "http://html5.intel.com/xdk2/feeds/release-2015-ww25/iotapp/templates-blank-iot/sample.zip",
-      "projectGuid": "00000000-0000-0000-0000-000000000000",
+      "projectGuid": "a381738c-50e4-45c4-904c-a300821ca30e",
       "lastModifiedDate": 1435879142565,
       "creationDate": 1435879142218
     },
