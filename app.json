@@ -1,5 +1,5 @@
 {
-   "tooltip" : "A simple node.js application intended to rotates a servo motor connected to your Intel® Edison board when you turn the knob on a rotary angle sensor.
+   "tooltip" : "A simple node.js application intended to rotates a servo motor connected to your Intel® Edison board when you turn the knob on a rotary angle sensor." ,
    "section" : "iot-templates",
    "group" : "other",
    "visible" : true,
