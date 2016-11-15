@@ -6,10 +6,10 @@
   "visible" : true,
   "sortWeight" : "0.0",
   "repoName" : "iotapp-servrotary",
-  "tooltip" : "A simple node.js application intended to rotates a servo motor connected to your Intel(R) Edison board when you turn the knob on a rotary angle sensor." ,
-  "description" : "A simple node.js application intended to rotates a servo motor connected to your Intel(R) Edison board when you turn the knob on a rotary angle sensor." ,
+  "tooltip" : "Rotate a servo motor via the knob on a rotary angle sensor." ,
+  "description" : "A simple Node.js IoT application that rotates a servo motor, on select Intel IoT boards. Turn the knob on a rotary angle sensor to control the relative location of the motor." ,
   "articleUrl" : "https://software.intel.com/en-us/creating-an-app-that-rotates-a-servo-motor",
-  "keywords" : [""],
+  "keywords" : ["motion","rotary"],
   "targets": ["edison","galileo"],
   "runtimes": ["node"]
 }
