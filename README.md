@@ -1,6 +1,5 @@
-Servrotary
-==========
-
+Intel® XDK IoT Node.js\* Rotary Servo App
+=========================================
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
