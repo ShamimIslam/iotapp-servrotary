@@ -4,13 +4,6 @@
  *
  * This can be done using one of two methods:
  *
- * Use the UPM library, which contains direct support for the LCD device.
- *
- * Alternatively, drive the LCD directly from JavaScript using the I2C
- * interface directly. This approach is useful for learning about using the
- * I2C bus. The LCD file is an implementation in JavaScript for some common
- * LCD functions.
- *
  * Supported Intel IoT development boards are identified in the code.
  *
  * See LICENSE.md for license terms and conditions.
