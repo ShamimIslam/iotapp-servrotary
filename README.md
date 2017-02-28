@@ -1,5 +1,6 @@
 Intel® XDK IoT Node.js\* Rotary Servo App
 =========================================
+
 See [LICENSE.md](LICENSE.md) for license terms and conditions.
 
 This sample application is distributed as part of the
@@ -19,6 +20,7 @@ information regarding the upm sensor and actuator library APIs.
 
 App Overview
 ------------
+
 A simple node.js application that demonstrates when rotary angle
 sensor is being moved it will make servo motor rotate.
 
@@ -43,17 +45,20 @@ console.log("Set angle to " + degrees);
 
 Important App Files
 -------------------
+
 * main.js
 * package.json
 
 Important Project Files
 -----------------------
+
 * README.md
 * LICENSE.md
 * \<project-name\>.xdk
 
 Tested IoT Node.js Platforms
 ----------------------------
+
 * [Intel® Galileo Board for Arduino](http://intel.com/galileo)
 * [Intel® Edison Board for Arduino](http://intel.com/edison)
 
