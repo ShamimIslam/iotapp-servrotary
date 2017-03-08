@@ -1,14 +1,17 @@
-/*
+/**
+ * @file
  * Rotates a servo motor. Turn the knob on a rotary angle sensor to control
  * the relative position of a step motor.
  *
- * This can be done using one of two methods:
- *
  * Supported Intel IoT development boards are identified in the code.
  *
- * See LICENSE.md for license terms and conditions.
+ * <https://software.intel.com/en-us/xdk/docs/using-templates-nodejs-iot>
  *
- * https://software.intel.com/en-us/xdk/docs/using-templates-nodejs-iot
+ * @author Amrita Chopra, Intel Corporation
+ *
+ * @copyright (c) 2016-2017, Intel Corporation
+ * @license BSD-3-Clause
+ * See LICENSE.md for complete license terms and conditions.
  */
 
 /* spec jslint and jshint lines for desired JavaScript linting */
